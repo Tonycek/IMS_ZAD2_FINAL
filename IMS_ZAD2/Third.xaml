@@ -1,0 +1,64 @@
+﻿<Page
+    x:Class="IMS_ZAD2.Third"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IMS_ZAD2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:IMS_ZAD2.Models"
+    mc:Ignorable="d">
+
+    <ScrollViewer
+        HorizontalAlignment="Stretch">
+        <!--
+        <StackPanel>
+
+            
+            <StackPanel 
+                x:Name="stackPanel2"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Orientation="Vertical"
+                Visibility="Collapsed">
+
+                <TextBox
+                    x:Name="labelText"
+                    Height="400"
+                    TextWrapping="Wrap"
+                    AcceptsReturn="True"/>
+
+            </StackPanel>
+
+            <GridView
+                x:Name="tabulka" 
+                Visibility="Collapsed"
+                ItemsSource="{x:Bind Testy}"
+                Width="900">
+                <GridView.ItemTemplate>
+                    <DataTemplate
+                        x:DataType="data:Test">
+                        <StackPanel
+                            Orientation="Horizontal">
+                            <TextBox
+                                Text="{x:Bind Test1}"/>
+                            <TextBox
+                                Text="{x:Bind Test2}"/>
+                            <TextBox
+                                Text="{x:Bind Test3}"/>
+                            <TextBox
+                                Text="{x:Bind Test4}"/>
+                            <TextBox
+                                Text="{x:Bind Test5}"/>
+                            <TextBox
+                                Text="{x:Bind Test6}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+            </GridView>
+            
+        </StackPanel>
+            -->
+    </ScrollViewer>
+    <!--<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"> 
+    </Grid> -->
+</Page>
